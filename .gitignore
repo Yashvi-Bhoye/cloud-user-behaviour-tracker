@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# React build output
+build/
+
+# Secrets / keys
+Cloud Key/
+*.pem
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Reports / docs
+*.docx
+
+# Editor files
+.vscode/
