@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN pip install flask pymongo flask-cors
+RUN pip install flask flask-cors pymongo python-dotenv
 
 EXPOSE 5000
 
